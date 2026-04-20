@@ -1,4 +1,4 @@
-package com.ninehungerpoint
+package com.nine.hunger.point
 
 import android.app.Application
 import com.facebook.react.PackageList
