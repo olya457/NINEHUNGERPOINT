@@ -19,7 +19,7 @@ const LoadingScreen = () => {
         index: 0,
         routes: [{ name: hasOnboarded ? 'Main' : 'Onboarding' }],
       });
-    }, 5000);
+    }, 2500);
     return () => clearTimeout(timer);
   }, [isLoaded, hasOnboarded, navigation]);
 

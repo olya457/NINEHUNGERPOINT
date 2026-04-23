@@ -263,18 +263,20 @@ const styles = StyleSheet.create({
     right: 80,
   },
   mapTitle: {
-    color: '#2a0a0aff',
+    color: '#FFFFFF',
     fontSize: 28,
     fontWeight: '800',
-    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowColor: 'rgba(0,0,0,0.85)',
     textShadowRadius: 8,
+    textShadowOffset: { width: 0, height: 1 },
   },
   mapSubtitle: {
-    color: '#241d1dff',
+    color: '#E6E6E6',
     fontSize: 14,
     marginTop: 2,
-    textShadowColor: 'rgba(0,0,0,0.8)',
+    textShadowColor: 'rgba(0,0,0,0.85)',
     textShadowRadius: 8,
+    textShadowOffset: { width: 0, height: 1 },
   },
 
   controlsColumn: {
