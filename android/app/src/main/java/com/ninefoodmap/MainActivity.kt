@@ -1,4 +1,4 @@
-package com.nine.hunger.point
+package com.ninefoodmap
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
